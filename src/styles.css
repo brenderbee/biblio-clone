@@ -1,0 +1,11 @@
+.grid-container {
+  display: grid;
+  height: 90%;
+  width: 100%;
+  grid-template: repeat(5, 200px) / repeat(4, 400px);
+  grid-gap: 3px;
+}
+
+.grid-item {
+  border: 2px solid black;
+}
